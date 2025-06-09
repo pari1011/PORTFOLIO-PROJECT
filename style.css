@@ -1,3 +1,141 @@
-body{
-    color: red;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: rgb(234, 228, 228);
+   
+    font-family: 'Poppins', sans-serif;
+   
 }
+
+body{
+    background-color: rgb(37, 36, 36);
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(15,23,42);
+    height: 60px;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.3);
+}  
+
+.nav-name{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.1rem;
+   
+}
+
+.nav-buttons{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 14px;
+}
+
+.nav-buttons a{
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+#home{
+    color: rgb(99,102,241);
+}
+
+.hero-section{
+    height: 100vh;
+    width: 100%;
+    margin-top: 2px;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.3);
+    background-color: rgb(15, 23, 42);
+    display: flex;
+    
+}
+
+.left-box-name button{
+    
+    background: linear-gradient(135deg, #9b5cf6, #d264f7);
+    width: 15%;
+    height: 34px;
+    border: none;
+    border-radius: 4px;
+   
+   
+}
+
+.left-box-name{
+    width: 49%;
+    margin-left: 6.7%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+   
+} 
+
+.left-box-name h1{
+    line-height: 1;
+    font-size: 6rem;
+    font-weight: 550;
+}
+
+.left-box-name h4{
+    margin-top: 25px;
+    font-size: 1.5rem;
+    font-weight: 520;
+    color: rgba(240, 248, 255,0.9);
+    width: 80%;
+   
+}
+
+.left-box-name p{
+    margin-top: 25px;
+    font-weight: lighter;
+    color: rgba(242, 249, 255,0.6);
+    width: 80%;
+}
+
+.left-box-button{
+    width: 70%;
+    margin-top: 25px;
+    display: flex;
+    
+}
+
+.left-box-button button{
+    margin-left: 13%;
+}
+
+.image-box{
+    margin-left: 0.1%;
+    margin-top: 50px;
+    width: 24%;
+    border-radius: 50%;
+}
+
+.my-image{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.right-box-icons a{
+    font-size: 1.4rem;
+    text-decoration: none;
+
+}
+
+.right-box-icons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 2%;
+    gap: 9px;
+
+
+}
+
+   
